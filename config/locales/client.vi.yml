@@ -1,7 +1,54 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
 vi:
+  js:
+    filters:
+      following:
+        title: "Đang theo đuôi"
+        help: "Những chủ đề của người bạn đang theo đuôi"
+    notifications:
+      following: "<span>{{username}}</span> {{description}}"
+      following_description: "theo đuôi bạn"
+      following_posted: "<span>{{username}}</span> {{description}}"
+      following_replied: "<span>{{username}}</span> {{description}}"
+      popup:
+        following: "{{username}} theo đuôi bạn"
+        following_posted: '{{username}} vừa đăng bài "{{topic}}" - {{site_title}}'
+        following_replied: '{{username}} vừa comment "{{topic}}" - {{site_title}}'
+    topics:
+      none:
+        following: "Không có chủ đề từ những người bạn theo đuôi"
+      bottom:
+        following: "Không có thêm chủ đề nào từ những người bạn theo đuôi"
+    user:
+      follow_nav: "Theo đuôi"
+      follow:
+        label: "Theo đuôi"
+      following:
+        label: "Đang theo đuôi"
+        none: "Bạn không theo đuôi ai"
+        none_other: "{{username}} không theo đuôi bạn"
+      followers:
+        label: "Người theo đuôi"
+        none: "Không ai theo đuôi bạn"
+        none_other: "Không có ai theo đuôi {{username}}"
+      feed:
+        label: "Tin mới"
+        empty_feed_you: "Không có bài viết nào từ người bạn theo đuôi."
+        empty_feed_other: "Không có bài viết nào từ %{username}."
+      follow_notifications_options:
+        notify_followed_user_when_followed: "Thông báo thành người dùng khi tôi theo đuôi họ."
+        notify_me_when_followed: "Thông báo cho tôi biết khi có người theo đuôi tôi."
+        notify_me_when_followed_replies: "Thông báo cho tôi khi người tôi theo đuôi đăng comment."
+        notify_me_when_followed_creates_topic: "Thông báo cho tôi khi người tôi theo đuôi đăng chủ đề."
+        allow_people_to_follow_me: "Cho phép mọi người theo đuôi tôi."
+    follow:
+      follow_pages_visibility:
+        no-one: "Không ai cả"
+        self: "Chính mình"
+        trust_level_4: "Trust Level 4"
+        trust_level_3: "Trust Level 3"
+        trust_level_2: "Trust Level 2"
+        trust_level_1: "Trust Level 1"
+        trust_level_0: "Trust Level 0"
+        everyone: "Mọi người"
+      follow_button_label: "Theo đuôi"
+      unfollow_button_label: "Bỏ theo đuôi"
