@@ -1,28 +1,24 @@
 vi:
   js:
-    filters:
-      following:
-        title: "Đang theo đuôi"
-        help: "Những chủ đề của người bạn đang theo đuôi"
     notifications:
       following: "<span>{{username}}</span> {{description}}"
       following_description: "theo đuôi bạn"
-      following_posted: "<span>{{username}}</span> {{description}}"
+      following_created_topic: "<span>{{username}}</span> {{description}}"
       following_replied: "<span>{{username}}</span> {{description}}"
+      titles:
+        following_created_topic: "bài viết mới từ người bạn đang theo đuôi"
+        following_replied: "bình luận mới từ người bạn đang theo đuôi"
+        following: "ai đó đã theo đuôi bạn"
       popup:
         following: "{{username}} theo đuôi bạn"
-        following_posted: '{{username}} vừa đăng bài "{{topic}}" - {{site_title}}'
-        following_replied: '{{username}} vừa comment "{{topic}}" - {{site_title}}'
-    topics:
-      none:
-        following: "Không có chủ đề từ những người bạn theo đuôi"
-      bottom:
-        following: "Không có thêm chủ đề nào từ những người bạn theo đuôi"
+        following_created_topic: '{{username}} vừa đăng bài "{{topic}}" - {{site_title}}'
+        following_replied: '{{username}} vừa bình luận "{{topic}}" - {{site_title}}'
     user:
       follow_nav: "Theo đuôi"
       follow:
         label: "Theo đuôi"
       following:
+        feed_link: "Follow feed"
         label: "Đang theo đuôi"
         none: "Bạn không theo đuôi ai"
         none_other: "{{username}} không theo đuôi bạn"
@@ -37,7 +33,7 @@ vi:
       follow_notifications_options:
         notify_followed_user_when_followed: "Thông báo thành người dùng khi tôi theo đuôi họ."
         notify_me_when_followed: "Thông báo cho tôi biết khi có người theo đuôi tôi."
-        notify_me_when_followed_replies: "Thông báo cho tôi khi người tôi theo đuôi đăng comment."
+        notify_me_when_followed_replies: "Thông báo cho tôi khi người tôi theo đuôi đăng bình luận."
         notify_me_when_followed_creates_topic: "Thông báo cho tôi khi người tôi theo đuôi đăng chủ đề."
         allow_people_to_follow_me: "Cho phép mọi người theo đuôi tôi."
     follow:

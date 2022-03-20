@@ -1,7 +1,26 @@
 vi:
+  discourse_push_notifications:
+    popup:
+      following_created_topic: '%{username} đã tạo "%{topic}" - %{site_title}'
+      following_replied: '%{username} đã bình luận vào "%{topic}" - %{site_title}'
   site_settings:
     discourse_follow_enabled: "Kích hoạt chức năng theo đuôi."
     follow_show_statistics_on_profile: "Hiện thị thông tin theo đuôi trang thành viên."
     follow_notifications_enabled: "Kích hoạt các thông báo theo đuôi."
     follow_followers_visible: "Hiển thị người theo đuôi thành viên."
     follow_following_visible: "Hiển thị người thành viên theo đuôi."
+    default_notify_me_when_followed: 'Default value for the <code>Notify me when users follow me</code> user preference. Changing this setting only applies to users who have never changed their notification preferences of the follow plugin'
+    default_notify_followed_user_when_followed: 'Default value for the <code>Notify users when I follow them</code> user preference. Changing this setting only applies to users who have never changed their notification preferences of the follow plugin'
+    default_notify_me_when_followed_replies: 'Default value for the <code>Notify me when someone I follow replies</code> user preference. Changing this setting only applies to users who have never changed their notification preferences of the follow plugin'
+    default_notify_me_when_followed_creates_topic: 'Default value for the <code>Notify me when someone I follow creates a topic</code> user preference. Changing this setting only applies to users who have never changed their notification preferences of the follow plugin'
+    default_allow_people_to_follow_me: 'Default value for the <code>Allow people to follow me</code> user preference. Changing this setting only applies to users who have never changed their notification preferences of the follow plugin'
+
+  follow:
+    user_not_found: "Không thể tìm thấy người dùng với username %{username}"
+    user_cannot_follow_themself: "Người dùng này không cho phép theo đuôi"
+    invalid_notification_level: "Thông báo không hợp lệ level %{level}"
+    cannot_follow_bot: "Không thể theo đuôi bot"
+    cannot_follow_suspended: "Không thể theo đuôi người dùng bị tạm khoá"
+    cannot_follow_staged: "Không thể theo đuôi người dùng im lặng"
+    invalid_created_before_date: "Đã nhận được một ngày không hợp lệ cho thông số `created_before`: %{value}"
+    user_does_not_allow_follow: "%{username} không cho phép mọi người theo đuôi họ."
