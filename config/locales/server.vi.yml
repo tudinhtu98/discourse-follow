@@ -17,7 +17,7 @@ vi:
 
   follow:
     user_not_found: "Không thể tìm thấy người dùng với username %{username}"
-    user_cannot_follow_themself: "Người dùng này không cho phép theo đuôi"
+    user_cannot_follow_themself: "Bạn không thể theo đuôi chính mình"
     invalid_notification_level: "Thông báo không hợp lệ level %{level}"
     cannot_follow_bot: "Không thể theo đuôi bot"
     cannot_follow_suspended: "Không thể theo đuôi người dùng bị tạm khoá"
